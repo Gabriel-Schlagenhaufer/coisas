@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+
+.tudo{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+}
+
+.contas{
+    height: auto;
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-numero{
+    padding: 10px;
+    background-color: #EEE;
+    color: black;
+    border: #CCC 1px solid;
+    margin: 2px;
+}
+
+.botao-operacao{
+    background-color: #FF8000;
+    color: white;
+    border: none;
+    width: 37px;
+    height: 37px;
+    margin: 2px;
+    font-size: 14px;
+}
+
+.botao-operacao:hover{
+    cursor: pointer;
+}
+
+.botao-operacao:active{
+    background-color: #EE5000;
+}
+
+.output-numero{
+    padding: 10px;
+    margin: 2px;
+    color: black;
+}
+
+.botao-limpar{
+    background-color: #FF8000;
+    color: white;
+    font-size: 10px;
+    width: 50px;
+    height: 37px;
+    border: none;
+}
+
+.botao-limpar:hover{
+    cursor: pointer;
+}
+
+.botao-limpar:active{
+    background-color: #EE5000;
+}
